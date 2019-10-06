@@ -176,7 +176,7 @@ endmodule;
 * 用户定义的原语(在门级)
 * 模块实例 (创建层次结构)
 
-##### Ex. 使用内置门原语描述的全加器电路
+##### Ex. 使用内置门原语描述的1位全加器电路
 
 ```verilog
 module FA_Str (A, B, Cin, Sum, Cout);
@@ -199,6 +199,10 @@ endmodule
 ```
 
 xor、and和or是内置门原语；X1、X2、A1、O1等是实例名称。
+
+<img src="Verilog HDL 学习笔记.assets/image-20190913135856938.png" alt="image-20190913135856938" style="zoom:50%;" />
+
+![image-20191006154123328](Verilog HDL 学习笔记.assets/image-20191006154123328.png)
 
 #### 6 混合设计描述方式
 
