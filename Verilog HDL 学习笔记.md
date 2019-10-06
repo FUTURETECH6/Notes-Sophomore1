@@ -202,6 +202,22 @@ xor、and和or是内置门原语；X1、X2、A1、O1等是实例名称。
 
 <img src="Verilog HDL 学习笔记.assets/image-20190913135856938.png" alt="image-20190913135856938" style="zoom:50%;" />
 
+```verilog
+module FourBitFA (FA,FB,FCin,FSum,FCout);
+  parameterSIZE=4;
+  input [SIZE:1] FA,FB;
+  output [SIZE:1] FSum
+  input FCin;
+  input FCout;
+  wire [1:SIZE-1] FTemp;
+FA_Str
+  FA1(.A(FA[1]),.B(FB[1]),.Cin(FCin),.Sum(FSum[1]),.Cout(FTemp[2])),
+  FA2(.A(FA[2]),.B(FB[2]),.Cin(FTemp[1]),.Sum(FSum[2]),.Cout(FTemp[2])),
+  FA3(FA[3],FB[3],FTemp[2],FSum[3],FTemp[3]),
+  FA4(FA[4],FB[4],FTemp[3],FSum[4],FCout);
+endmodule
+```
+
 ![image-20191006154123328](Verilog HDL 学习笔记.assets/image-20191006154123328.png)
 
 #### 6 混合设计描述方式
@@ -210,5 +226,49 @@ xor、and和or是内置门原语；X1、X2、A1、O1等是实例名称。
 
 #### 7 设计模拟
 
+Ex. 验证与非门交叉连接构成的RS_FF模块的测试模块
+
+<img src="Verilog HDL 学习笔记.assets/image-20191006160607434.png" alt="image-20191006160607434" style="zoom: 33%;" />
+
+==实测这个程序甚至没法通过语法检测==
+
+```verilog
+`timescale 10ns/1ns
+module RS_FF (Q,Qbar,R,S);
+  output Q,Qbar;
+  input R,S;
+
+  nand #1 (Q,R,Qbar);
+  nand #1 (Qbar,S,Q);
+    //在门实例语句中，实例名称是可选的。
+endmodule
+
+module Test;
+  reg TS,TR;
+  wire TQ,TQb;
+
+  //测试模块的实例语句:
+  RS_FFNSTA(.Q(TQ),.S(TS),.R(TR),.Qbar(TQb));
+    //采用端口名相关联的连接方式。
+
+  //加载激励:
+  initial
+    begin:
+      TR=0;
+      TS=0;
+      #5 TS=1;
+      #5 TS=0;
+      TR=1;
+      #5 TS=1;
+      TR=0;
+      #5 TS=0;
+      #5 TR=1
+    end
+    //输出显示:
+    initial
+      $monitor ("At time %t ,", $time, "TR=%b,TS=%b,TQ=%b,TQb=%b", TR, TS, TQ, TQb);
+endmodule
+```
 
 
+<img src="Verilog HDL 学习笔记.assets/image-20191006160629168.png" alt="image-20191006160629168" style="zoom: 33%;" />
