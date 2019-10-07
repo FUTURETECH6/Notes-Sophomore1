@@ -165,6 +165,51 @@ loop是先减1再判断是否为0
 
 
 
-debug中-p是运行到cx=0的loop处(loop还未执行)
+debug中-p是一次运行到cx=0的loop处(loop还未执行)
 
-![image-20191004103756210](Sep25.assets/image-20191004103756210.png)
+<img src="Sep25.assets/image-20191004103756210.png" alt="image-20191004103756210" style="zoom: 33%;" />
+
+"-g ads"可以直接执行到CS:ads处
+
+-u可以查看制定地址段机器码反汇编后的代码
+
+
+
+源程序中的[ads]不表示(DS:[ads])，会被masm当做数值ads处理
+
+<img src="Sep25.assets/image-20191007101944690.png" alt="image-20191007101944690" style="zoom:50%;" /> $\Longrightarrow$ <img src="Sep25.assets/image-20191007102016154.png" alt="image-20191007102016154" style="zoom:50%;" />
+
+但若[reg]，则会默认为是偏移地址，注意，reg需为`must be index or base register`
+
+> 1. 使用[寄存器间接寻址](https://www.baidu.com/s?wd=寄存器间接寻址&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)时，只可以使用 BX, BP, SI, DI 这四个寄存器中的一个，不可以使用其它寄存器。
+> 2. 提示的意思是（方括号里）必须是变址（index，指SI, DI）或基址（base，指BX, BP）寄存器。
+> 3. 16位汇编才有限制，32位汇编随意
+
+<img src="Sep25.assets/image-20191007102640402.png" alt="image-20191007102640402" style="zoom:50%;" /> $\Longrightarrow$ <img src="Sep25.assets/image-20191007102613701.png" alt="image-20191007102613701" style="zoom:50%;" />
+
+==段地址寄存器：ds,cs,ss,es==
+
+安全内存空间：0:0200~0:02ff
+
+<img src="Sep25.assets/image-20191007104208879.png" alt="image-20191007104208879" style="zoom: 33%;" />
+
+```assembly
+assume cs:code
+code segment
+    dw 123h
+    start:  mov bx,0
+            mov ax,0
+
+            mov cx,8
+        s:  add ax,cs:[bx]
+            add bx,2
+            loop s
+
+            mov ax,4c00h
+            int 21h
+code ends
+end start
+;end指令指明了程序入口在标号start处
+```
+
+<img src="Sep25.assets/image-20191007114743023.png" alt="image-20191007114743023" style="zoom:33%;" />
