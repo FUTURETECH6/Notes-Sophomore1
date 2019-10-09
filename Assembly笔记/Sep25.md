@@ -147,6 +147,8 @@ code ends
 end main
 ```
 
+==mov dl, s[bx]    ; 经过编译后变成mov dl, ds:[3+bx]==
+
 
 
 ## 国庆期间学习笔记
