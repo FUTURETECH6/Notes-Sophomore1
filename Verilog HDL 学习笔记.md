@@ -2,9 +2,9 @@
 
 ## #2
 
-#### 1 模块
+### 1 模块
 
-###### 基本范式
+#### 基本范式
 
 ```verilog
 module module_name (port_list); 
@@ -23,7 +23,7 @@ endmodule
 
 **<u>为了使模块描述清晰和具有良好的可读性 , 最好将所有的说明部分放在语句前。本书中的所有实例都遵守这一规范。</u>**
 
-###### Ex.
+#### Ex.
 
 ```verilog
 module HalfAdder (A, B, Sum, Carry);
@@ -39,7 +39,7 @@ endmodule
 
 <img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=3e220fe1728da9775a228e79d138937c/96dda144ad345982c60529400df431adcaef8451.jpg" alt="半加器电路" style="zoom:25%;">
 
-#### 2 时延
+### 2 时延
 
 如上程序中 `assign #2 Sum = A ^ B;` #2 表示2个时间单位
 
@@ -54,9 +54,9 @@ endmodule
 
 注意：如果没有这样的编译器指令，VerilogHDL模拟器会指定一个缺省时间单位。==IEEEVerilogHDL标准中没有规定缺省时间单位。==
 
-#### 3 数据流描述方式(连续赋值语句assign)
+### 3 数据流描述方式(连续赋值语句assign)
 
-###### 语法
+#### 语法
 
 ```verilog
 assign [delay] LHS_net = RHS_expression;  //右边表达式使用的操作数无论何时发生变化，右边表达式都重新计算，并且在指定的时延后变化值被赋予左边表达式的线网变量。
@@ -64,7 +64,7 @@ assign [delay] LHS_net = RHS_expression;  //右边表达式使用的操作数无
 
 <u>**连续赋值语句是并发执行的，也就是说各语句的执行顺序与其在描述中出现的顺序无关。**</u>
 
-###### Ex. 2-4解码器电路
+#### Ex. 2-4解码器电路
 
 ```verilog
 `timescale 1ns/1ns
@@ -92,7 +92,7 @@ endmodule
 
 <img src="Verilog HDL 学习笔记.assets/image-20190913134133533.png" alt="image-20190913134133533" style="zoom:40%;" />
 
-#### 4 行为描述方式(init, alwa)
+### 4 行为描述方式(init, alwa)
 
 用于结构描述的过程语句
 
@@ -101,7 +101,7 @@ endmodule
 
 **<u>只有寄存器类型数据能够在这两种语句中被赋值。</u>**寄存器类型数据在被赋新值前保持原有值不变。<u>**所有的初始化语句和 always 语句在0时刻并发执行。**</u>
 
-##### Ex. 用always对1位全加器建模
+#### Ex. 用always对1位全加器建模
 
 ```verilog
 module FA_Seq (A,B,Cin,Sum,Cout);
@@ -144,7 +144,7 @@ endmodule
 
 ==如果在过程赋值中未定义时延，缺省值为0时延，也就是说，赋值立即发生。==
 
-##### Ex. initial语句示例
+#### Ex. initial语句示例
 
 ```verilog
 module Test (Pop,Pid);
@@ -167,7 +167,7 @@ endmodule;
 
 <img src="Verilog HDL 学习笔记.assets/image-20190913160653787.png" alt="image-20190913160653787" style="zoom:50%;" />
 
-#### 5 结构化描述形式
+### 5 结构化描述形式
 
 在Verilog HDL中可使用如下方式描述结构：
 
@@ -176,7 +176,7 @@ endmodule;
 * 用户定义的原语(在门级)
 * 模块实例 (创建层次结构)
 
-##### Ex. 使用内置门原语描述的1位全加器电路
+#### Ex. 使用内置门原语描述的1位全加器电路
 
 ```verilog
 module FA_Str (A, B, Cin, Sum, Cout);
@@ -220,11 +220,11 @@ endmodule
 
 ![image-20191006154123328](Verilog HDL 学习笔记.assets/image-20191006154123328.png)
 
-#### 6 混合设计描述方式
+### 6 混合设计描述方式
 
 结构的和行为的描述可以混合，
 
-#### 7 设计模拟
+### 7 设计模拟
 
 Ex. 验证与非门交叉连接构成的RS_FF模块的测试模块
 
