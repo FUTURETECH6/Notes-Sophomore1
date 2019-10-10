@@ -270,5 +270,8 @@ module Test;
 endmodule
 ```
 
-
 <img src="Verilog HDL 学习笔记.assets/image-20191006160629168.png" alt="image-20191006160629168" style="zoom: 33%;" />
+
+### q
+
+默认数据类型：1位wire
