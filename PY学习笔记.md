@@ -3,6 +3,12 @@
 <center><b><font size = "4">Table of contents</font></b></center>
 [TOC]
 
+## 骚操作
+
+```bash
+python -m SimpleHTTPServer
+```
+
 ## 数据类型
 
 ### 字符串
