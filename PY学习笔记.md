@@ -7,6 +7,7 @@
 
 ```bash
 python -m SimpleHTTPServer
+ifconfig | grep "inet "
 ```
 
 ## 数据类型
