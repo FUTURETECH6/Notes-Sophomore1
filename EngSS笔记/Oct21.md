@@ -1,0 +1,60 @@
+# Oct21
+
+## Q
+
+1. NIck's curiostity has been gone for a long time after he witnessed the labor. But we can find  in the last past that he still asked many questions, it shows that his curiosity had returned why?
+
+   - ~~之前是对分娩本身，之后是对生命的思考~~
+   - The previous curiosity came from his ignorance of the process of labor itself. But the latter curiosity came from what he saw, the mental shock he had when seeing the suicide Indian
+
+   A: WHy the indian suddenly killed him
+
+   HE WORRIED THAT HIS FATHER WILL ALSO KILL HIMSELF FOR NO REASON.
+
+   TABOO: WE WON'T TALK ABOUT PARENTS' DEATH WITH THEM, BUT HAS TO IN A ROUNDABOUT WAY(WILL NICK'S DAD KILL HIMSELF)
+
+2. 为什么问"Why did he killed himself, daddy?"，他认为他爸知道答案，但也不知道，为了不让N失望，所以稍稍猜了一下
+
+    
+
+3. 第五行"Daddy?"喊了一声是要干什么(means)？他爹回答"Yes."，然后N又问了不相干的问题"Where did Uncle G go?"，为什么要问这个，背后有什么联系，N脑袋里在想什么
+
+   回答Yes：
+
+   HIS FATHER THINK: ARE YOU SURE SOME KILL THEM SELVES
+
+   NICK'S REAL MEANING: WHAT ABOUT YOU？
+
+   THEY ARE IN DIFFERENT channel / track 
+
+   问叔叔去哪：
+
+   怕叔叔自杀
+
+   "He will turn out all right":
+
+   MEANING: "HE WILL TURN UP ANYWAY" + "HE WON'T SUICIDE / HE WILL BE SAFE AND SOUND"
+
+
+
+为什么自杀？
+
+失去尊严，没面子
+
+
+
+出生死亡率较高
+
+
+
+the husbandkill himself before the operation
+
+
+
+听不到scream $\Longrightarrow$ 说明他是有经验的医生，这种情况见的多了 professional surety
+
+$\Longrightarrow$ 也说明他indifferent to his patients，甚至习以为常
+
+但是印第安人认为 这个医生水平高所以小孩不会死了，自己就不活了
+
+（如果水平很差小孩会死掉(abortion流产)那还行）
