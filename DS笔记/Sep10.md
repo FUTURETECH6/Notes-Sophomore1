@@ -40,7 +40,7 @@ T(rows, cols)= 2 * rows * cols +2 * rows +1
 
 Asymptotic Notation
 
-SEE: [离散课件](/Users/futuretech6/Documents/大一下/离散数学及其应用_51/pdf课件/3算法 DS-wu-3&4&5.4(2019).pdf)
+SEE: [离散课件](file:///Users/ulysses/Documents/大一下/离散数学及其应用_51/pdf课件/3算法 DS-wu-3&4&5.4(2019).pdf)
 
 运算规则：
 
