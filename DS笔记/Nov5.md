@@ -55,4 +55,4 @@ union 时将该component的根(key = 0)的key改为 另一component的根的位�
   }
   ```
 
-  ==Not compatible with union-by-height since it changes the heights.  Just take “height” as an estimated rank.==
+  ==Not compatible with union-by-height since it changes the heights. Just take “height” as an estimated rank.==
