@@ -2,7 +2,9 @@
 
 ## Sep17
 
-例题找$\sum_{k=i}^ja_k$的最大值，~~若有小于0的和则置0~~
+### 例题：
+
+找$\displaystyle\sum_{k=i}^ja_k$的最大值，~~若有小于0的和则置0~~
 
 ```
 i = 0 to n
@@ -14,8 +16,8 @@ i = 0 to n
 
 
 ```
-i=0 to n-1
-	j=n-1 to i
+i = 0 to n-1
+	j = n-1 to i
 		即可
 		
 ```
@@ -44,13 +46,37 @@ T(N)=T(N/2)+O(1)
 
 T(N)=T(N/2^k^)+kO(1)=O(logN)
 
+**CXY’s implementation**
 
+```c
+#include <stdio.h>
+#define __get_int() ({int _TMP; scanf("%d", &_TMP); _TMP;})
+int main(int argc, char const *argv[])
+{
+	int n;
+	n = __get_int();
+	int ary[100] = {0};
+	for (int i = 0; i < n; i++)
+		ary[i] = __get_int();
 
-#### List
+	int thisSum = 0, maxSum = 0;
+	for (int i = 0; i < n; i++) {
+		thisSum += ary[i];
+		if (thisSum > maxSum)
+			maxSum = thisSum;
+		if (thisSum < 0)
+			thisSum = 0;
+	}
+	printf("\n%d\n", maxSum);
+	return 0;
+}
+```
 
-##### array
+### List
 
-##### Linked List
+#### array
+
+#### Linked List
 
 ```c
 typedef struct listnode list;
@@ -60,20 +86,20 @@ typedef list{
 };
 ```
 
-##### Doubly Linked List
+#### Doubly Linked List
 
 可以做成
 
 
 
-##### 多项式运算
+#### 多项式运算
 
 1. 用数组，下标表示次数，不适合稀疏的数据
 2. 用链表
 
 
 
-##### Multilist
+#### Multilist
 
 40000学生选2500门课的表示方法
 
