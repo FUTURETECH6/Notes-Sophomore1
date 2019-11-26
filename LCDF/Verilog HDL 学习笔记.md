@@ -99,7 +99,7 @@ endmodule
 * initial 语句：只执行一次
 * always 语句：总是循环执行
 
-<u>**只有寄存器类型数据能够在这两种语句中被赋值。**<\u>寄存器类型数据在被赋新值前保持原有值不变。<u>**所有的初始化语句和 always 语句在0时刻并发执行。**</u>
+<u><b>只有寄存器类型数据能够在这两种语句中被赋值。</b></u>寄存器类型数据在被赋新值前保持原有值不变。<u><b>所有的初始化语句和 always 语句在0时刻并发执行。</b></u>
 
 #### Ex. 用always对1位全加器建模
 
@@ -109,8 +109,7 @@ module FA_Seq (A,B,Cin,Sum,Cout);
   output Sum,Cout;
   reg Sum,Cout;  //只有寄存器类型数据能够在这两种语句中被赋值。
   reg T1,T2,T3;
-  always
-    @(A or B or Cin) begin  //只要A、B或Cin上发生事件，即A、B或Cin之一的值发生变化，顺序过程就执行。  顺序过程执行完成后，always语句再次等待A、B或Cin上发生的事件。
+  always@(A or B or Cin) begin  //只要A、B或Cin上发生事件，即A、B或Cin之一的值发生变化，顺序过程就执行。  顺序过程执行完成后，always语句再次等待A、B或Cin上发生的事件。
       
       Sum=(A^B)^Cin;
       T1=A & Cin;
@@ -275,3 +274,29 @@ endmodule
 ### q
 
 默认数据类型：1位wire
+
+## #3
+
+* 按位操作符
+
+  ```verilog
+  ~
+  &
+  |
+  ^
+  ~^ / ^~
+  ```
+
+* 规约操作符
+
+  ```verilog
+  & ; &A == A[0] & A[1] & ... & A[n]
+  ~& ; ~&A == ~(A[0] & A[1] & ... & A[n])
+  |
+  ~|
+  ^
+  ~^
+  ```
+
+  
+
