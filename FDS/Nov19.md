@@ -65,8 +65,10 @@ void Unweighted( Table T )
 
     * Method 1: Update $\Longrightarrow$ Decrease Key
       * T = O(|E|log|V| + |V|log|V|) = O(|E|log|V|)
-    * Method 2: insert W with updated Dist into the priority queue
+    * Method 2: insert W with updated Dist into the priority queue(W为V所有邻接点)
+      * 所有本来的W的node先deleteMin掉，再把新的插入进去
       * T = O(|E|log|V|) but requires |E| DeleteMin with |E| space
+      * 比1好实现，但是复杂度高
 
   ```c
   void Dijkstra( Table T )
