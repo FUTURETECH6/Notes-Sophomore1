@@ -56,3 +56,7 @@ defparam FFDA.INIT = 1'b0; //define initial value of the D type Flip-Flop
 
 ---
 
+内部线要记得declare，否则会被当成一位wire，并且编译器还不报错。
+
+---
+
