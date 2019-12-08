@@ -33,11 +33,11 @@ $U = W_{+q\rightarrow\infty}+W_{-q\rightarrow\infty} = qU_+ +(-q)U_- = q(U_+-U_-
 **==一些较复杂的可通过求电势的方向导数获得==**(Ex.大物P44)
 
 
-- 无限大带电平面：$E=\frac{\sigma}{2\varepsilon_0}$
-- 有限长带电棒任意点：$\left\{\begin{array}{}	E_x = \frac{\lambda}{4\pi\varepsilon_0z}(sin\theta_2-sin\theta_1)\\E_y = \frac{\lambda}{4\pi\varepsilon_0z}(cos\theta_1-cos\theta_2)	\end{array}\right.$(大物P17，挺好算的)
+- 无限大带电平面：$E={\frac{\sigma}{2\varepsilon_0}}$
+- 有限长带电棒任意点：$\left\{\begin{array}{l}	E_x = \frac{\lambda}{4\pi\varepsilon_0z}(sin\theta_2-sin\theta_1)\\E_y = \frac{\lambda}{4\pi\varepsilon_0z}(cos\theta_1-cos\theta_2)	\end{array}\right.$(大物P17，挺好算的)
 
   - 有限长带电棒中点：$E = \frac{Q}{4\pi\varepsilon_0}\frac{1}{z\sqrt{(\frac L 2)^2+z^2}}$
-  - 无限长带电棒：$E=\frac{\lambda}{2\pi\varepsilon_0r}$
+  - 无限长带电棒：$E={\frac{\lambda}{2\pi\varepsilon_0r}}$
 - 带电圆环：$E=\frac{1}{4\pi\varepsilon_0}\frac{\lambda(2\pi R)z}{(R^2+z^2)^\frac{3}{2}}\hat k=\frac{Q}{4\pi\varepsilon_0}\frac{z}{(R^2+z^2)^\frac{3}{2}}\hat k$
 
   - 带电圆盘：$\frac{\sigma}{2\varepsilon_0}(1-\frac{z}{\sqrt{z^2+R^2}})\hat k$
@@ -94,10 +94,10 @@ $$
 
 $$
 div f=\nabla\cdot f=\frac{\partial f}{\partial x}+\frac{\partial f}{\partial y}+\frac{\partial f}{\partial z}\\
-\left \{ \begin{array}{}
-	divf>0 & 该点有散发通量的正源(发散源/source)\\
-	divf<0 & 该点有吸收通量的负源(洞或汇/sink)\\
-	divf=0 & 该点无源\\
+\left \{ \begin{array}{ll}
+	divf>0 & ,该点有散发通量的正源(发散源/source)\\
+	divf<0 & ,该点有吸收通量的负源(洞或汇/sink)\\
+	divf=0 & ,该点无源\\
 \end{array}\right.\\
 $$
 
@@ -112,16 +112,16 @@ $$
 
 $$
 curlf=\nabla\times f= 
-\left[ \begin{array}{}
+\left[ \begin{array}{c}
 	\frac{\partial}{\partial x} \\
 	\frac{\partial}{\partial y} \\
 	\frac{\partial}{\partial z}
 \end{array}\right]
 \times
-\left[ \begin{array}{}
+\left[ \begin{array}{c}
 	f_x\\f_y\\f_z
 \end{array}\right]
-=\left[ \begin{array}{} 
+=\left[ \begin{array}{c} 
 	\frac{\partial z}{\partial y}-\frac{\partial y}{\partial z}\\
 	\frac{\partial x}{\partial z}-\frac{\partial z}{\partial x}\\
 	\frac{\partial y}{\partial x}-\frac{\partial x}{\partial y}
@@ -156,7 +156,7 @@ $$
 #### 电势与电压梯度
 
 $$
-E_\vec l=-\frac{\partial V}{\partial\vec l}=-\nabla V
+E_{\vec l}=-\frac{\partial V}{\partial\vec l}=-\nabla{V}
 $$
 
 #### ==自能与互能==
@@ -181,7 +181,7 @@ $$
 <u>注意：仅在表面有电荷</u>
 $$
 U = 
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	互能：\frac 1 2\int \frac{Q}{4\pi \varepsilon_0 R}dq = \frac{Q}{8\pi \varepsilon_0 R} \int dq
 	\\
 	自能：\int_0^Q \frac{q}{4\pi \varepsilon_0 R}dq
@@ -257,7 +257,7 @@ $$
 
 $$
 U =
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	\frac{q^2}{2C}
 	\\
 	\frac{q \Delta V}{2}
@@ -297,13 +297,16 @@ Q一定时，X表示插入电介质后的量值，X~0~表示真空时的量值
 
 ==不要忘了最基本的这几个==
 $$
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	C=\kappa_eC_0\\
 	\Delta V=\frac Q C=\frac Q{\kappa_eC_0}=\frac {\Delta V_0}{\kappa_e}\\
 	E = \frac{\Delta V} d = \frac{E_0} {\kappa_e}\\
 \end{array} \right.
-\\
-另外有，\\
+$$
+
+另外有，
+
+$$
 \because \frac{Q}{\varepsilon_0A}
 = \frac {(Q_0 - Q')}{\varepsilon_0A}
 \xlongequal[始终成立]{GaussLaw} E
@@ -339,7 +342,7 @@ $$
 
 **一个重要结论**
 $$
-\mathop\oint_s\vec P \cdot d \vec A = - \sum_{(ins)}q'_i
+\mathop{\oint}_s\vec{P} \cdot d \vec A = - \sum_{(ins)}q'_i
 $$
 
 #### Depolarization field E’ (退极化场)
@@ -368,13 +371,13 @@ $\vec D = \varepsilon_0 \vec E + \vec P\\ = \varepsilon_0 \vec E + \chi_e \varep
 
 **CXY猜想**：
 $$
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	D = \varepsilon E
 	\\
 	P = \chi_E\varepsilon_0E
 \end{array} \right.
 \Longrightarrow
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	D \sim E
 	\\
 	P \sim E_0-E
@@ -430,7 +433,7 @@ $$
 
 <img src="普物2笔记.assets/page40image3039776.jpg" alt="page40image3039776.jpg" style="zoom: 25%;" />
 $$
-同并联，C=\frac {\varepsilon_0 \frac A2}{d}(\kappa_1+\kappa_2)
+同并联，C={\frac{\varepsilon_{0} {\frac A 2}}{d}} (\kappa_1+\kappa_{2})
 $$
 
 若上下两种电介质
@@ -446,7 +449,7 @@ $$
 \because C=4\pi\varepsilon_e(\frac{Rr}{R-r})\\
 \frac1C=\frac1{4\pi\varepsilon_0\kappa_1(\frac{ba}{b-a})}
 +\frac1{4\pi\varepsilon_0\kappa_1(\frac{ba}{b-a})}\\
-\Longrightarrow C=\frac{4\pi\varepsilon_0\kappa_1\kappa_2 abc}{\kappa_1a(c-b)+\kappa_2c(b-a)}
+\Longrightarrow C={\frac{4\pi\varepsilon_0\kappa_1\kappa_2 abc}{\kappa_1a(c-b)+\kappa_2c(b-a)}}
 $$
 
 ### Ch27 Ohm's Law
@@ -483,13 +486,15 @@ $\varepsilon_1=10V,\varepsilon_2=5V,R_1=R_2=R_3=4\Omega$
 $$
 假设i_1向右，i_2向右，i_3向下
 \\
-\left \{ \begin{array}{}
+\left \{ \begin{array}{l}
 	i_1 = i_2 + i_3\\
 	\varepsilon_1-i_1R_1-i_3R_3 = 0\\
 	-i_2R_2-\varepsilon_2+i_3R_3 = 0\\
 \end{array} \right.
-\\\Longrightarrow i_1 = 1.25A, i_2 = 0
+\\
+\Longrightarrow i_1 = 1.25A, i_2 = 0
 $$
+
 ==注意：方向应先假设，求出是负的再反向即可==
 
 #### RC Circuit(串联RC)
@@ -525,7 +530,7 @@ $$
 
 ## *Magnet
 
-> 新引入常量：$\mu_0 = 4\pi \times 10^{-7} T \cdot m \cdot A^{-1}$
+> 新引入常量：${\mu_0 = 4\pi \times 10^{-7} T \cdot m \cdot A^{-1}}$
 >
 > $[\mu_0] = N \cdot A^{-2}(N = A \cdot m \cdot T)$
 
@@ -535,7 +540,7 @@ $$
 
 真空中有$B = \mu_0H$
 
-$\mu_0$:Vacuum Permeability Constant 真空磁导率，值为$4\pi \times 10^{-7}\ T \cdot m \cdot A^{-1}$
+$\mu_0$:Vacuum Permeability Constant 真空磁导率，值为${4\pi \times 10^{-7}\ T \cdot m \cdot A^{-1}}$
 
 #### 洛伦兹力与安培力
 
