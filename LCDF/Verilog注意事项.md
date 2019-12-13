@@ -60,3 +60,7 @@ defparam FFDA.INIT = 1'b0; //define initial value of the D type Flip-Flop
 
 ---
 
+调用模块后跟延时
+
+`and #(3,4,5) b1 (out,in,control); //上升延迟为3，下降延迟为4，关断延迟为5`
+
