@@ -653,9 +653,9 @@ $$
 
 #### 粒子生磁
 
-$d\vec B = \frac{\mu_0}{4\pi} \frac{i\ d\vec s \times \hat r}{r^2} = \frac{\mu_0}{4\pi} \frac{i\ d\vec s \times \vec r}{r^3}, i = \frac{dq}{dt} \Longrightarrow id\vec s = \vec vdq,$ when there is only one particle carrying a single charge, $dq = q, d\vec B = \frac{\mu_0}{4\pi} \frac{dq\ \vec v \times \hat r}{r^2}$
+$d\vec B = \frac{\mu_0}{4\pi} \frac{i\ d\vec s \times \hat r}{r^2} = \frac{\mu_0}{4\pi} \frac{i\ d\vec s \times \vec r}{r^3}, i = \frac{dq}{dt} \Longrightarrow id\vec s = \vec vdq,$ when there is only one particle carrying a single charge, $dq = q, d\vec B = \frac{\mu_0}{4\pi} \frac{dq\ \vec v \times \hat r}{r^2}{}$
 
-$\therefore \vec B = \frac{\mu_0}{4\pi} \frac{q\ \vec v \times \hat r}{r^2}$
+$\therefore \vec B = \frac{\mu_0}{4\pi} \frac{q\ \vec v \times \hat r}{r^2}{}$
 
 #### Ampere Circuital Theorem(电生磁)
 
