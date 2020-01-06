@@ -458,11 +458,9 @@ Reminiscently 若有所思地，仿佛联想起什么地
 
 
 
-- overstatement
-  - 夸张
+- overstatement：夸张
 - statement
-- understatement
-  - 低调、轻描淡写
+- understatement：低调、轻描淡写
 
 
 
@@ -490,7 +488,7 @@ irony(反讽)
 
 称呼变成"Nickie"
 
-- Nickie is more [intimate](亲切的，亲密的) 
+- Nickie is more intimate (亲切的，亲密的) 
 - 感情复杂
 
 
@@ -585,7 +583,7 @@ died 指自杀
 
 
 
-the husbandkill himself before the operation
+the husband kill himself before the operation
 
 
 
@@ -710,7 +708,7 @@ illumination
 
 
 
-> and yet she
+> and yet she had loved him -- sometimes
 
 what could love count for in the face of self-assertion
 
@@ -789,20 +787,20 @@ heart disease 表示 clinic condition，心脏病
 
 heart trouble is ambiguous ，可以表示心脏病，此外还有*心病* 的意思
 
-> <!--ná mó a mí duō pó yè duō tuō qié duō yè-->
-> <!--南 无 阿 弥 多 婆 夜 哆 他 伽 多 夜-->
-> <!--duō dì yè tuō a mí lì dū pó pí-->
-> <!--哆 地 夜 他 阿 弥 唎 都 婆 毗-->
-> <!--a mí lì duō xī dān pó pí-->
-> <!--阿 弥 唎 哆 悉 耽 婆 毗-->
-> <!--a mí lì duō pí jiā lán dì-->
-> <!--阿 弥 唎 哆 毗 迦 兰 帝-->
-> <!--a mí lì duō pí jiā lán duō-->
-> <!--阿 弥 唎 哆 毗 迦 兰 多-->
-> <!--qié mí ní qié qié nuō-->
-> <!--伽 弥 腻 　 伽 伽 那-->
-> <!--zhǐ duō jiā lì suō pó hē-->
-> <!--枳 多 迦 唎 娑 婆 诃-->
+ná mó a mí duō pó yè duō tuō qié duō yè
+南 无 阿 弥 多 婆 夜 哆 他 伽 多 夜
+duō dì yè tuō a mí lì dū pó pí
+<!--哆 地 夜 他 阿 弥 唎 都 婆 毗-->
+<!--a mí lì duō xī dān pó pí-->
+<!--阿 弥 唎 哆 悉 耽 婆 毗-->
+<!--a mí lì duō pí jiā lán dì-->
+<!--阿 弥 唎 哆 毗 迦 兰 帝-->
+<!--a mí lì duō pí jiā lán duō-->
+<!--阿 弥 唎 哆 毗 迦 兰 多-->
+<!--qié mí ní qié qié nuō-->
+<!--伽 弥 腻 　 伽 伽 那-->
+<!--zhǐ duō jiā lì suō pó hē-->
+<!--枳 多 迦 唎 娑 婆 诃-->
 
 
 
@@ -847,10 +845,6 @@ self-imposed / imprisonment
 
 
 
-
-
-
-
 ## HW
 
 MM smiles at everythings around, she presented herself as a smiling woman
@@ -874,6 +868,8 @@ alibi 不在犯罪现场的证明
 
 italic 斜体的
 
+
+
 对话的loopholes
 
 * mechanic answer to "How are you?"
@@ -881,7 +877,9 @@ italic 斜体的
 * she talks too much
   * deliberately providing infomation
 
-见面good evening，道别good night没毛病
+(见面good evening，道别good night没毛病
+
+
 
 gradually become more and more at ease
 
@@ -935,6 +933,8 @@ Sam 也是lambtotTS
 
 **Self-possessed**: calm
 
+
+
 > You <u>must</u> try and put up with me
 
 **must**: sounds abrupt
@@ -947,11 +947,15 @@ migrate: indicate that Mr.Nuttle 每年都来此地
 
 down there: 从城市到乡村
 
+
+
 > worse  than ever before <u>from</u> moping
 
 from: because of
 
 **silent communion(communication)**: Both are thinking to themself and try to figure out what the other is thinking about.
+
+
 
 > Do you <u>know</u> many of the people round there
 
@@ -960,6 +964,8 @@ from: because of
 She has to confirm that she can tell the story
 
 一点也不Self-possessed
+
+
 
 > An undefinable something
 
@@ -984,7 +990,7 @@ Try to lead and control the direction and going of the conversation
 
 
 讲得生动的原因
-${\begin{cases} 细节丰富 \\ 副词等修饰词很多 \\ 元音开头的词的使用 \\ 重读第一个音节的多音节单词 \end{cases}}$
+$\displaystyle{\begin{cases} 细节丰富 \\ 副词等修饰词很多 \\ 元音开头的词的使用 \\ 重读第一个音节的多音节单词 \end{cases}}$
 
 
 
@@ -1043,7 +1049,7 @@ exclaim 惊呼
 
 halldoor gravel drive frontgate 是他逃跑路上经过的三个东西
 
-bolt out
+bolt out：bolt：门、窗的金属插销，闩；；常指人或动物因受惊吓迅速逃跑，逃窜；
 
 "a Mr.Nuttel" a用来描述陌生人
 
@@ -1061,7 +1067,7 @@ Ganges 恒河
 
 # Dec13
 
-
+## A&P
 
 the tone(基调) of literature is diffcult to catch
 
@@ -1131,7 +1137,6 @@ feathers是比喻(metaphor)，比作愤怒的鸟
 >
 > >美国塞林小镇（Salem）位于[波士顿](https://baike.baidu.com/item/波士顿/81031)以北25公里处，被人昵称为“女巫城”，早在1692年有一场[声名狼藉](https://baike.baidu.com/item/声名狼藉)的[女巫审判](https://baike.baidu.com/item/女巫审判/8464072)，当时小镇上1500人口当中，有150人被误认为是女巫而被吊死，史称[塞勒姆女巫审判案](https://baike.baidu.com/item/塞勒姆女巫审判案/2500347)。镇上的[女巫雕像](https://baike.baidu.com/item/女巫雕像/4851242)随处可见，巫术氛围浓厚。
 > >
-> >这个小镇有许多女巫博物馆。据说举办了大型的鬼节活动。小镇上装饰着各种鬼节装饰，走到一个怪物前，想和它拍照，只见它嘴里“冒烟”，一分钟不到，就能使你看不见任何东西，只能看见“白烟”[飘来飘去](https://baike.baidu.com/item/飘来飘去)。小镇上还出售女巫帽，女巫的扫把和一切有关于女巫的东西。 [1]
 
 puritan 清教徒
 
@@ -1233,7 +1238,7 @@ social dum 社会渣滓
 
 > finges icy col
 
-很紧张 因为他怕三个女孩回去Stokes那里结账自己没机会了
+很紧张 因为他怕三个女孩会去Stokes那里结账自己没机会了
 
 
 
@@ -1376,4 +1381,102 @@ idle 无所事事 虚度时光
 
 1. 女主的名字叫什么？
 2. Mrs Mercer的作用是什么
+
+
+
+# Dec30
+
+## 考试说明
+
+1. 单项选择 10道每道1分
+   * 均来自于上课内容
+2. 对错判断 10道每道1分
+   * 均来自于上课内容
+3. 简答题 2道每道15分
+   * 一道来自课堂，一道来自书
+   * 尽量详细
+4. 翻译中译英 5大句每句 4分
+   * 4道来自课堂
+5. questions 30分
+   * 没上过的短篇小说
+
+
+
+开卷考试
+
+* 纸质材料
+  * 字典
+  * 笔记
+
+
+
+平时成绩占30%
+
+
+
+时间会比较紧张
+
+---
+
+### Q：
+
+1. 女主的名字叫什么？
+2. Mrs Mercer的作用是什么
+   * 她在等uncle，我也在等uncle拿到钱去Araby
+   * 等的目的：不是来拿邮票而是来拿借给uncle的钱
+     * uncle也在门外等MM走(MM一走就回来了)
+     * 说明叔叔很吝啬
+   * 后果
+     * 延迟了我去araby的时间(delayed, put off)
+
+
+
+等到她真正到arby的时候，对路边破败场景的描写反应了他的心境
+
+
+
+service 
+
+* military \~ 兵役
+* religious \~ 礼拜
+
+remark：注意到，辨认出
+
+
+
+English accent 英格兰口音
+
+
+
+> 一女两男的对话
+
+这三个人无聊的对话让她想到了自己和sister无聊的对话
+
+
+
+小朋友对sister的情感到底是什么？
+
+在"Her image accompanied...hostile to romance"这段中有confused adoration
+
+
+
+女名是Maria/Mary？？>> Virgin Mary 圣母玛利亚
+
+说明小孩心目中她是goddess:$\displaystyle \begin{cases} Beauty \\ Purity \end{cases}{}$
+
+respect instead of love
+
+and "respect" $\Longrightarrow$ distance (loop up to her, no equality)
+
+另外一个线索：举着圣杯通过荆棘
+
+
+
+adoration is divine/religious love, which requires distance, while sexual attraction means physically closeness
+
+Why confusion? <u>He was a young boy, M'sister was a yonug girl. Undoubtedly between not just adoration but also sexual attraction. The boy feels this attraction, but has to keep distance because of his adroation</u>
+
+这种在宗教色彩浓烈的国家很常见，会让青年人无所适从
+
+---
 

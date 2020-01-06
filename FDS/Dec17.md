@@ -4,7 +4,7 @@
 
 ### m3算法课件版
 
-m3的时候把pivot存到[right-1]
+m3的时候把pivot存到[right-1]，三个中最大值存在[right]
 
 然后快排的时候
 
