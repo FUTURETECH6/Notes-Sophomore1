@@ -1,5 +1,3 @@
-[toc]
-
 # Appreciating English short stories
 
 考试会考上课内容
@@ -787,22 +785,7 @@ heart disease 表示 clinic condition，心脏病
 
 heart trouble is ambiguous ，可以表示心脏病，此外还有*心病* 的意思
 
-ná mó a mí duō pó yè duō tuō qié duō yè
-南 无 阿 弥 多 婆 夜 哆 他 伽 多 夜
-duō dì yè tuō a mí lì dū pó pí
-<!--哆 地 夜 他 阿 弥 唎 都 婆 毗-->
-<!--a mí lì duō xī dān pó pí-->
-<!--阿 弥 唎 哆 悉 耽 婆 毗-->
-<!--a mí lì duō pí jiā lán dì-->
-<!--阿 弥 唎 哆 毗 迦 兰 帝-->
-<!--a mí lì duō pí jiā lán duō-->
-<!--阿 弥 唎 哆 毗 迦 兰 多-->
-<!--qié mí ní qié qié nuō-->
-<!--伽 弥 腻 　 伽 伽 那-->
-<!--zhǐ duō jiā lì suō pó hē-->
-<!--枳 多 迦 唎 娑 婆 诃-->
-
-
+ 
 
 没人知道MrsMallard心里对自己的婚姻不满意，可能连MrMallard都不知道，let alone other people
 
