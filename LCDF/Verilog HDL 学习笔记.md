@@ -29,7 +29,7 @@ endmodule
 module HalfAdder (A, B, Sum, Carry);
   input A, B;
   output Sum, Carry;
-  
+
   assign #2 Sum = A ^ B;
   assign #5 Carry = A & B;
 endmodule
@@ -72,7 +72,7 @@ module Decoder2x4 (A, B, EN, Z);
   input A, B, EN;
   output [0:3] Z;  //四位输出端口
   wire Abar, Bbar;
-  
+
   assign #1 Abar = ~ A;                   //语句1
   assign #1 Bbar = ~ B;                   //语句2
   assign #2 Z[0] = ~ (Abar & Bbar & EN);  //语句3
@@ -110,7 +110,7 @@ module FA_Seq (A,B,Cin,Sum,Cout);
   reg Sum,Cout;  //只有寄存器类型数据能够在这两种语句中被赋值。
   reg T1,T2,T3;
   always@(A or B or Cin) begin  //只要A、B或Cin上发生事件，即A、B或Cin之一的值发生变化，顺序过程就执行。  顺序过程执行完成后，always语句再次等待A、B或Cin上发生的事件。
-      
+
       Sum=(A^B)^Cin;
       T1=A & Cin;
       T2=B & Cin;
@@ -149,7 +149,7 @@ endmodule
 module Test (Pop,Pid);
   output Pop, Pid;
   reg Pop,Pid;
-  
+
   initial
     begin
       Pop = 0；
@@ -182,16 +182,16 @@ module FA_Str (A, B, Cin, Sum, Cout);
   input A, B, Cin;
   output Sum, Cout;
   wire S1, T1, T2, T3;
-  
+
   xor
   	X1 (S1, A, B),
   	X2 (Sum, S1, Cin);
-  
+
   and
   	A1 (T3, A, B),
   	A2 (T2, B, Cin),
   	A3 (T1, A, Cin),
-  
+
   or
   	O1 (Cout, T1, T2, T3);
 endmodule
@@ -298,5 +298,5 @@ endmodule
   ~^
   ```
 
-  
+
 

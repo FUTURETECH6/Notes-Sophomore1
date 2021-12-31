@@ -52,9 +52,9 @@ void Unweighted( Table T )
 
 * **Implementation 1: For Dense Graph**
 * Directly Scan to find the min One
-  
+
 * T = O(|V|^2^+|E|)
-  
+
 * **Implementation 2: For Sparse Graph**
 
   * Use a Priority Queue to store the distance data and call DeleteMin[costs O(log|V|)]
@@ -96,7 +96,7 @@ void Unweighted( Table T )
   }
   ```
 
-  
+
 
 * Other Improvements
   * Pairing Heap
@@ -123,7 +123,7 @@ void Unweighted( Table T )
                   minDist = dist[loopV];
               }
           hasVisited[minUnV] = 1;
-  
+
           for (int loopV = 0; loopV < Graph->Nv; loopV++) {
               if (Graph->G[minUnV][loopV] <= 0)
                   continue;
